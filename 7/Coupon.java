@@ -1,4 +1,4 @@
-public abstract class Coupon {
+public abstract class Coupon implements CouponManagement {
     protected String userName;
     protected int expiray;
     protected int uniqueCode;
